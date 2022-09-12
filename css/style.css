@@ -152,8 +152,8 @@ nav{
     list-style-type: none;
     margin: .5em;
 }
-
-hr{
+/* CAMBIA IMPOSTAZIONE HR */
+.content hr{
     margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 70%;
@@ -231,12 +231,26 @@ hr{
     /* DEBUG */
     height: 300px;
 }
-
 .your-option{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+/* Sezione domande */
+.requests{
+    padding-top: 3em;
+    width: 50%;
+    margin: 0 auto;
+}
+.requests ul{
+    list-style-type: none;
+    padding-top: 1em;
+}
+.requests ul li{
+    padding-top: 1em;
+    line-height: 2em;
 }
 /* FOOTER */
