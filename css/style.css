@@ -192,4 +192,36 @@ hr{
     padding: 1.5em;
 }
 
+/* Titolo DropBox */
+.titoloDropBox{
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+    /* DEBUG */
+    background-color: lightgray;
+}
+
+/* Matrioska */
+.rectangle-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3em;
+    /* DEBUG */
+    background-color: lightpink;
+    height: 400px;
+}
+.square{
+    width: calc(100% / 3 - 3px);
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 3px;
+    /* DEBUG */
+    background-color:violet;
+}
+
+.little-square{
+    width: calc(100% / 2);
+}
+
 /* FOOTER */
