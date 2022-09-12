@@ -60,20 +60,20 @@ nav{
 .link-right{
     display: flex;
     line-height: 80px;
-    text-align: center;
-    padding-right: 1em;
-
+    justify-content: flex-end;
      /* DEBUG */
      background-color: lightskyblue;
 }
-
+.link-right a{
+    padding-right: 1em;
+    padding-left: 1em;
+}
 .link-right ul{
     list-style-type: none;
     display: flex;
     line-height: 80px;
     text-align: center;
 }
-
 /* MAIN */
 
 /* Jumbotron */
