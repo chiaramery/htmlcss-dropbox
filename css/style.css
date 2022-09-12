@@ -260,26 +260,85 @@ button{
     width: 100%;
     margin-top: 3em;
     /* DEBUG */
-    background-color: lightpink;
     height: 300px;
 }
 .square{
+    position: relative;
     width: calc(100% / 3 - 3px);
     display: flex;
     flex-wrap: wrap;
     margin-right: 3px;
-    /* DEBUG */
-    background-color:violet;
+    background-color:rgb(245 245 245);
+    overflow: auto;
+}
+.square img{
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-63%, -99%);
+}
+
+.square p{
+    position: absolute;
+    top: 10em;
+    left: 1em;
+    font-size: 12px;
+    
+}
+
+.square span{
+    position: absolute;
+    top: 17em;
+    left: 1em;
+    font-size: 12px;
+    
 }
 
 .little-square{
     width: calc(100% / 2);
+    height: 150px;
+    position: relative;
+}
+.first{
+    background-color: rgb(166 210 158);
+}
+.little-square img{
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.second{
+    background-color: rgb(93 6 43);
+}
+
+.third{
+    background-color: rgb(44 151 202);
+}
+
+.fourth{
+    background-color: rgb(247 0 45);
+}
+
+.fifth{
+    background-color:rgb(206 0 42);
+}
+.sixth{
+    background-color: rgb(183 210 229);
+}
+.seventh{
+    background-color:rgb(19 45 126);
+}
+.eighth{
+    background-color:rgb(252 212 76);
+}
 /* Sezione prova gratuita */
 .heavenly{
     position: relative;
-    background-color: lightblue;
+    background-color:rgb(183 210 229);
     /* DEBUG */
     height: 300px;
 }
@@ -288,9 +347,21 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    color: rgb(93 6 43);
 }
 
+.heavenly span{
+    padding: 1.5em;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 1.5em);
+    right: 0;
+}
+
+.heavenly span a{
+    text-decoration: none;
+    color: black;
+}
 /* Sezione domande */
 .requests{
     padding-top: 3em;
