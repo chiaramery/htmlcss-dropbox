@@ -17,13 +17,11 @@ img{
     display: flex;
 }
 
-ul{
-    list-style-type: none;
+.row {
     display: flex;
-    line-height: 80px;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 /* HEADER */
 .header-container{
     width: 100%;
@@ -54,6 +52,10 @@ nav{
     padding-right: 1em;
     padding-left: 1em;
 }
+.link-left ul{
+    display: flex;
+    list-style-type: none;
+}
 
 .link-right{
     display: flex;
@@ -65,8 +67,16 @@ nav{
      background-color: lightskyblue;
 }
 
+.link-right ul{
+    list-style-type: none;
+    display: flex;
+    line-height: 80px;
+    text-align: center;
+}
 
 /* MAIN */
+
+/* Jumbotron */
 .jumbotron{
     display: flex;
     margin-top: 5em;
@@ -77,32 +87,81 @@ nav{
 
 }
 .container-1{
-    height: 300px;
     width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* DEBUG */
     background-color: blue;
+    height: 500px;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 
-}
 .big-bar{
-
      /* DEBUG */
      background-color: lightgreen;
      width: 400px;
 }
 
 .small-bar{
-
     /* DEBUG */
     background-color: lightsalmon;
     width: 300px;
 }
 
+/* Cards */
+.bg-white{
+    /* DEBUG */
+    background-color: aquamarine;
+}
+.main-container{  
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    /* DEBUG */
+    background-color: yellow;
+}
+.card-wrapper h2{
+    padding: 20px;
+}
+.card{
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 20px;
+    /* DEBUG */
+    background-color: lightcoral;
+}
+
+/* Content card */
+.modality{
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.content{
+    margin-left: .5em;
+}
+
+.content h3{
+    margin-bottom: 1em;
+}
+
+.content ul{
+    list-style-type: none;
+    margin: .5em;
+}
+
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 70%;
+}
+
+.rectangle{
+    margin-top: 1em;
+    width: calc(100% - 20px);
+    padding-bottom: .5em;
+}
 /* FOOTER */
