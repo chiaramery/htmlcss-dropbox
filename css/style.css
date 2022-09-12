@@ -214,6 +214,19 @@ button{
     margin: 1em;
 }
 
+.small-bar{
+    padding: 1.7em;
+}
+.small-bar p{
+    margin-top: 1.5em;
+}
+
+.white{
+    background-color: white;
+    color: gray;
+    
+}
+
 /* Businnes */
 .col{
     width: calc(100% / 3 - .5em);
