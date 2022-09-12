@@ -247,9 +247,10 @@ button{
 .titoloDropBox{
     margin-top: 3em;
     padding: 1em;
-    text-align: center;
-    /* DEBUG */
-    background-color: lightgray;
+}
+
+.titoloDropBox h1{
+    margin-bottom: 1.5em;
 }
 
 /* Matrioska */
