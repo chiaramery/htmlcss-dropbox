@@ -221,26 +221,26 @@ button{
     margin-top: 1.5em;
 }
 
-.white{
-    background-color: white;
-    color: gray;
-    
-}
 
 /* Businnes */
+.businnes h1{
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
 .col{
     width: calc(100% / 3 - .5em);
     margin-top: .5em;
     margin-bottom: .5em;
     margin-left: .5em;
-    /* DEBUG */
-    background-color: orange;
 }
 .img{
     padding: 1.5em;
 }
 .text{
     padding: 1.5em;
+}
+.text p{
+    margin-top: 1em;
 }
 
 /* Titolo DropBox */
