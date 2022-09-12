@@ -114,7 +114,7 @@ nav{
     /* DEBUG */
     background-color: aquamarine;
 }
-.main-container{  
+.main-container{ 
     width: 80%;
     margin: 0 auto;
     padding-bottom: 1em;
@@ -163,5 +163,16 @@ hr{
     margin-top: 1em;
     width: calc(100% - 20px);
     padding-bottom: .5em;
+}
+
+/* Sezione img */
+.sect-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+.big-bar,
+.small-bar{
+    margin: 1em;
 }
 /* FOOTER */
