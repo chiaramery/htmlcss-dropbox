@@ -175,4 +175,21 @@ hr{
 .small-bar{
     margin: 1em;
 }
+
+/* Businnes */
+.col{
+    width: calc(100% / 3 - .5em);
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: .5em;
+    /* DEBUG */
+    background-color: orange;
+}
+.img{
+    padding: 1.5em;
+}
+.text{
+    padding: 1.5em;
+}
+
 /* FOOTER */
