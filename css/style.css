@@ -122,47 +122,73 @@ button{
 }
 
 /* Cards */
-.bg-white{
-    /* DEBUG */
-    background-color: aquamarine;
-}
+
 .main-container{ 
     width: 80%;
     margin: 0 auto;
     padding-bottom: 1em;
-    /* DEBUG */
-    background-color: yellow;
+
 }
 .card-wrapper h2{
     padding: 20px;
 }
 .card{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 1.5em);
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: .5px solid lightgray;
+    margin-left: 1.5em;
+    
+}
+.radio-buttons{
     margin-left: 20px;
-    /* DEBUG */
-    background-color: lightcoral;
+    display: flex;
+    padding-bottom: 2em;
+}
+#fatt-ann{
+    margin-left: 20px;
 }
 
 /* Content card */
 .modality{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     text-align: center;
     margin-bottom: 1.5em;
+    padding: .5em;
 }
 .content{
-    margin-left: .5em;
+    padding: 2em;
 }
 
 .content h3{
     margin-bottom: 1em;
 }
-
+.content span p{
+    margin-top: 1em;
+    font-size: 12px;
+}
+.content p{
+    margin-top: 1.5em;
+}
 .content ul{
     list-style-type: none;
     margin: .5em;
+}
+.content li{
+    margin-top: 1em;
+}
+.content h5{
+    margin-top: 3em;
+}
+.content ul li{
+    font-size: 13px;
+}
+.content ul li span{
+    color: rgb(36 110 249);
+    font-size: 1.3em;
+}
+.rectangle .content p{
+    padding-top: 1.5em;
 }
 /* CAMBIA IMPOSTAZIONE HR */
 .content hr{
@@ -172,7 +198,7 @@ button{
 }
 
 .rectangle{
-    margin-top: 1em;
+    margin-top: 2.5em;
     width: calc(100% - 20px);
     padding-bottom: .5em;
 }
