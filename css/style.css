@@ -209,7 +209,7 @@ hr{
     margin-top: 3em;
     /* DEBUG */
     background-color: lightpink;
-    height: 400px;
+    height: 300px;
 }
 .square{
     width: calc(100% / 3 - 3px);
@@ -224,4 +224,19 @@ hr{
     width: calc(100% / 2);
 }
 
+/* Sezione prova gratuita */
+.heavenly{
+    position: relative;
+    background-color: lightblue;
+    /* DEBUG */
+    height: 300px;
+}
+
+.your-option{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 /* FOOTER */
