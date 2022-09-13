@@ -41,6 +41,7 @@ nav{
 }
 
 .logo{
+    padding-left: .5em;
     line-height: 70px;
     text-align: center;
     width: 90px;
@@ -267,8 +268,9 @@ button{
     width: calc(100% / 3 - 3px);
     display: flex;
     flex-wrap: wrap;
-    margin-right: 3px;
     background-color:rgb(245 245 245);
+}
+.square .middle{
     overflow: auto;
 }
 .square img{
@@ -395,7 +397,7 @@ footer{
 }
 
 .footer-row .col {
-    width: calc(100% / 3);
+    width: calc(100% / 5);
     margin-left: 1em;
 }
 
