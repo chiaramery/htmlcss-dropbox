@@ -417,12 +417,32 @@ nav{
     padding-top: 2em;
     line-height: 2em;
     padding-bottom: 2em;
+    position: relative;
 }
-.requests ul li a{
+.requests a{
     color: black;
+    position: absolute;
+    right: 3px;
+    top: 35%;
 }
-
-
+/* PROVA RISPOSTE A SCOMPARSA */
+/* .requests ul li a i:hover{
+    transition: all .3s;
+    transform: rotateZ(-180deg);
+} */
+/* .answer{
+    position: absolute;
+    display: none;
+    padding: 2em;
+}
+.questions li{
+    position: relative;
+    left:0;
+    top:0;
+}
+.questions li:hover .answer{
+    display: block;
+} */
 /* FOOTER */
 footer{
     padding-top: 2em;
