@@ -435,24 +435,18 @@ nav{
     right: 3em;
     top: 35%;
 }
-/* PROVA RISPOSTE A SCOMPARSA */
-/* .requests ul li a i:hover{
-    transition: all .3s;
-    transform: rotateZ(-180deg);
-} */
-/* .answer{
-    position: absolute;
-    display: none;
-    padding: 2em;
+/* RISPOSTE A SCOMPARSA */
+summary {
+    cursor: pointer;
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
-.questions li{
-    position: relative;
-    left:0;
-    top:0;
+
+details p{
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
-.questions li:hover .answer{
-    display: block;
-} */
 /* FOOTER */
 footer{
     padding-top: 2em;
