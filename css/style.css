@@ -405,21 +405,24 @@ nav{
 /* Sezione domande */
 .requests{
     padding-top: 3em;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
 }
 .requests ul{
     list-style-type: none;
-    padding-top: 1em;
+    padding-top: 3em;
     padding-bottom: 4em;
 }
 .requests ul li{
-    padding-top: 1em;
+    padding-top: 2em;
     line-height: 2em;
+    padding-bottom: 2em;
 }
 .requests ul li a{
     color: black;
 }
+
+
 /* FOOTER */
 footer{
     padding-top: 2em;
