@@ -106,10 +106,11 @@ nav{
     background-color: rgb(183 210 229);
 }
 .container-1{
+    position: relative;
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height: 500px;
 }
 .container-1 h1{
@@ -117,15 +118,16 @@ nav{
     padding-left: 1.5em;
 }
 .big-bar{
-    width: 700px;
+    width: 60%;
 }
 .position img{
-   position: relative;
-   top: 5em;
-   left: 0;
+    width: 70%;
+    position: absolute;
+    top: 35%;
+    left: 30%;
 }
 .small-bar{
-    width: 300px;
+    width: 30%;
 }
 .small-bar button{
     margin-top: 2em;
