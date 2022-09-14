@@ -122,12 +122,14 @@ nav{
 }
 .position img{
     width: 70%;
+    max-width: 800px;
     position: absolute;
     top: 35%;
-    left: 30%;
+    left: 35%;
 }
 .small-bar{
-    width: 30%;
+    width: 35%;
+    max-width: 600px;
 }
 .small-bar button{
     margin-top: 2em;
