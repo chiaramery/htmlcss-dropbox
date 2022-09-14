@@ -21,7 +21,6 @@ img{
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .button{
     padding: .8em;
@@ -50,6 +49,9 @@ nav{
     line-height: 70px;
     text-align: center;
     width: 90px;
+}
+.logo img{
+    vertical-align: middle;
 }
 .link-left a{
     padding-right: 1em;
@@ -116,8 +118,6 @@ nav{
     padding-left: 1.5em;
 }
 .big-bar{
-    position: relative;
-     /* DEBUG */
      width: 700px;
 }
 .position img{
@@ -174,7 +174,7 @@ nav{
 
 /* Content card */
 .modality{
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     margin-bottom: 1.5em;
     padding: .5em;
@@ -227,7 +227,7 @@ nav{
 .rectangle .content p{
     padding-top: 1.5em;
 }
-/* CAMBIA IMPOSTAZIONE HR */
+
 .content hr{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -277,8 +277,8 @@ nav{
     margin-top: 2.5em;
     border: .6px solid black ;
 }
-/* Businnes */
-.businnes h1{
+/* Busines */
+.busines h1{
     margin-top: 5em;
     margin-bottom: 2em;
 }
@@ -314,8 +314,6 @@ nav{
     flex-direction: column;
     width: 100%;
     margin-top: 3em;
-    /* DEBUG */
-    height: 300px;
 }
 .square{
     position: relative;
