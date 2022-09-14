@@ -110,7 +110,6 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* DEBUG */
     height: 500px;
 }
 .container-1 h1{
@@ -118,7 +117,7 @@ nav{
     padding-left: 1.5em;
 }
 .big-bar{
-     width: 700px;
+    width: 700px;
 }
 .position img{
    position: relative;
@@ -126,7 +125,6 @@ nav{
    left: 0;
 }
 .small-bar{
-    /* DEBUG */
     width: 300px;
 }
 .small-bar button{
@@ -317,7 +315,7 @@ nav{
 }
 .square{
     position: relative;
-    width: calc(100% / 3 - 3px);
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     background-color:rgb(245 245 245);
