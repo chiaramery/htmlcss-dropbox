@@ -88,14 +88,49 @@ nav{
     color: white;
     padding: .5em;
 }
-/* PROVA HOVER BORDER */
-.link-left ul li a:hover{
-    border-bottom: 1px solid black;
+/* MENU A COMPARSA */
+.invisible{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    align-items: center;
+    border: 1px solid black;
+    border-bottom: none;
+    visibility: hidden;
+    opacity: 0;
 }
-.link-right ul li a:hover{
-    border-bottom: 1px solid black;
+.invisible a{
+    color: white;
 }
-
+.invisible li{
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+    background-color:rgb(166 210 158);
+    border-bottom: 1px solid  black;
+}
+.menu .has-children:hover .invisible{
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+    top: 60px;
+}
+.functions{
+    left: 200px;
+}
+.pay{
+    left: 300px;
+}
+.call{
+    left: 600px;
+    font-size: 15px;
+}
+.office{
+    left: 700px;
+    font-size: 15px;
+}
 /* MAIN */
 
 /* Jumbotron */
