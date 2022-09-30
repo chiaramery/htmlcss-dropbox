@@ -108,7 +108,7 @@ nav{
     width: 200px;
     font-size: 15px;
     text-align: center;
-    background-color:rgb(166 210 158);
+    background-color:rgb(183 210 229);
     border-bottom: 1px solid  black;
 }
 .menu .has-children:hover .invisible{
@@ -123,14 +123,7 @@ nav{
 .pay{
     left: 300px;
 }
-.call{
-    left: 600px;
-    font-size: 15px;
-}
-.office{
-    left: 700px;
-    font-size: 15px;
-}
+
 /* MAIN */
 
 /* Jumbotron */
@@ -359,7 +352,7 @@ nav{
     flex-wrap: wrap;
     background-color:rgb(245 245 245);
 }
-.square .middle{
+.square.middle{
     overflow: auto;
 }
 .middle img{
